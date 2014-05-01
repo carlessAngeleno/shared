@@ -18,7 +18,7 @@ h1, h2, h3, h4 {
 }
 
 .container a.brand:hover {
-  font-style: italic;
+  text-shadow: 0 0 0.1em rgba(136, 136, 136, 0.7), 0 0 0.1em rgba(136, 136, 136, 0.7), 0 0 0.1em rgba(136, 136, 136, 0.7);
 }
 
 .navbar-inner .container, .navbar-inverse div.navbar-inner {
@@ -43,7 +43,10 @@ h1, h2, h3, h4 {
 }
 
 .navbar a.brand.icon img:hover {
-  border-radius: 0px;
+  /*border-radius: 0px;*/
+  -moz-box-shadow: 0 0 10px rgba(136, 136, 136, 0.7);
+  -webkit-box-shadow: 0 0 10px rgba(136, 136, 136, 0.7);
+  box-shadow: 0 0 10px rgba(136, 136, 136, 0.7);  
 }
 
 /*** overide web2py.css ***/
@@ -90,4 +93,17 @@ button.ca_button_large, button.ca_button_large:hover {
   padding: 13px 21px;
   font-size: 17.5px;  
   min-width: 80px;
+}
+
+
+/* Center bootstrap navs (http://stackoverflow.com/a/9422253) */
+.nav-tabs.centered > li, .nav-pills.centered > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs.centered, .nav-pills.centered {
+    text-align:center;
 }
