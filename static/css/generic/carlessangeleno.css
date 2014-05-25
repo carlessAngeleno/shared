@@ -172,3 +172,26 @@ div.canvas img {
 .centered-pills a { float:left; }
 * html .centered-pills ul.nav-pills { display:inline; } /* IE6 */
 *+html .centered-pills ul.nav-pills { display:inline; } /* IE7 */
+
+
+
+ul.nav.ca_nav li {
+  padding-right: 2px;
+}
+
+ul.nav.ca_nav li a {
+  background-color: transparent;
+  -webkit-box-shadow: none; 
+  -moz-box-shadow: none;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+ul.nav.ca_nav li a.active {
+  border-bottom: 5px solid rgba(255,255,255, 1);
+}
+
+ul.nav.ca_nav li a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  border-bottom: 5px solid rgba(255, 255, 255, 0.8);
+}
