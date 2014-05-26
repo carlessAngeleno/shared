@@ -195,3 +195,10 @@ ul.nav.ca_nav li a:hover {
   color: rgba(255, 255, 255, 0.8);
   border-bottom: 5px solid rgba(255, 255, 255, 0.8);
 }
+
+blockquote.ca_blockquote {
+  padding: 0 0 0 15px;
+  margin: 0 0 20px;
+  border-left: 3px solid #999;
+  font-size: 13px;
+}
