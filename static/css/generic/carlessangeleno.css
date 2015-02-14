@@ -202,3 +202,11 @@ blockquote.ca_blockquote {
   border-left: 3px solid #999;
   font-size: 13px;
 }
+
+.share-buttons{
+  list-style: none;
+}
+
+.share-buttons li{
+  display: inline;
+}
